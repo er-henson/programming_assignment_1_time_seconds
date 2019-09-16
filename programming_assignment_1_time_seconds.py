@@ -6,7 +6,8 @@
 # Data Out: The total number of seconds that have passed
 
 # Program Explanation and instruction
-print("\nThis program takes 4 inputs for Days, Hours, Minutes, and Seconds and calculates the total number of seconds that have passed within that time.\nIf there are no units for a specific time, simply put 0.\n")
+print("\nThis program takes 4 inputs for Days, Hours, Minutes, and Seconds and calculates the total number of seconds that have passed within that time."
+      "\nIf there are no units for a specific time, simply put 0.\n")
 
 # Takes and converts the number of days into a float to account for decimal inputs
 days = input("How many Days?")
