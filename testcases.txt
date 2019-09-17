@@ -1,0 +1,47 @@
+test cases for time algorithm
+
+test 1
+-----
+days: 4
+hours: 3
+minutes: 12
+seconds: 6
+
+total seconds: 357,126.00 seconds
+
+
+test 2
+-----
+days: 365
+hours: 24
+minutes: 60
+seconds: 60
+
+total seconds: 31,626,060.00 seconds
+
+test 3
+-----
+days: 14
+hours: 9845
+minutes: 72
+seconds: 12
+
+total seconds: 36,655,932.00 seconds
+
+test 4
+-----
+days: 0
+hours: 24 
+minutes:1
+seconds: 0
+
+total seconds: 86,460.00 seconds
+
+test 5
+-----
+days: 1
+hours: 0
+minutes: 0
+seconds: 60
+
+total seconds: 86,460.00 seconds

@@ -1,0 +1,47 @@
+Algorithm Design – Time Passed in Seconds 
+
+Problem: finding the total number of seconds that have passed after a given number of days, hours, minutes, and seconds 
+
+	Print purpose of program
+	
+    Take day input 
+
+    Convert day input to int 
+
+    Take hour input 
+
+    Convert hour input to int 
+
+    Take minute input 
+
+    Convert minute input to int 
+
+    Take input for seconds 
+
+    Convert second input to int 
+
+    Multiply day input by number of seconds in a day (60*60*24) 
+
+    Multiply hour input by number of seconds in an hour (60*60) 
+
+    Multiply minute input by number of seconds in a minute (60) 
+
+    Add all inputs together, including second input without changing it 
+
+    Print final total of all inputs added together 
+
+•Example input: 
+
+3 days 
+
+4 hours 
+
+24 minutes 
+
+8 seconds 
+
+•Example output: 
+
+275048 seconds total have passed 
+
+Also accounts for “uneven” input of time units (for example, putting in 0 hours and 72 minutes instead of 1 hour and 12 minutes. Both will return 4320 seconds) 
